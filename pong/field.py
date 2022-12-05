@@ -58,7 +58,7 @@ class Field:
             self.b1.velocity = velocity3"""
             
             
-        if self.score1 == 1:
+        if self.score1 == 9:
             self.screen.blit(pygame.image.load(lose).convert_alpha(), (0, 0))
             self.screen.blit(pygame.font.SysFont('Atari Classic', 42).render(lose_text, True, BLACK), (W//2 - 500, H//2 - 50))
             self.sound_lose.play()
@@ -67,7 +67,7 @@ class Field:
             pygame.quit()
             exit()
             
-        if self.score2 == 1:
+        if self.score2 == 9:
             self.screen.blit(pygame.image.load(win).convert_alpha(), (0, 0))
             self.screen.blit(pygame.font.SysFont('Atari Classic', 42).render(win_text, True, BLACK), (W//2 - 500, H//2 - 50))
             pygame.display.flip()
