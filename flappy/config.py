@@ -1,0 +1,9 @@
+menu_start = "Start"
+menu_exit = "Exit"
+flags = "menu"
+FPS = 60
+WHITE = 255, 255, 255
+BLACK = 0, 0, 0
+W, H = 864, 768
+bg = "flappy/img/bg.png"
+bird_img = "flappy/img/face1.png"
