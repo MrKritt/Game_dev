@@ -9,7 +9,7 @@ class Ball(pygame.sprite.Sprite):
         self.image = pygame.transform.scale(self.image, (75, 75))
         self.rect = self.image.get_rect(center=(x, y))
         self.velocity = velocity0
-        self.sound_pong = pygame.mixer.Sound("sound_effects/pong.wav")
+        self.sound_pong = pygame.mixer.Sound("pong/sound_effects/pong.wav")
         
     def draw(self, screen):
         screen.blit(self.image, self.rect)

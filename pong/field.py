@@ -19,8 +19,8 @@ class Field:
         self.bound_2 = pygame.draw.line(self.screen, BLACK, [0, 0], [W, 0], 30)
         self.score1 = self.b1.score1()
         self.score2 = self.b1.score2(self.width)
-        self.sound_win = pygame.mixer.Sound("sound_effects/victory.wav")
-        self.sound_lose = pygame.mixer.Sound("sound_effects/gameover.wav")
+        self.sound_win = pygame.mixer.Sound("pong/sound_effects/victory.wav")
+        self.sound_lose = pygame.mixer.Sound("pong/sound_effects/gameover.wav")
         
         
     def draw(self):
